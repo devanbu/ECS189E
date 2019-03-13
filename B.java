@@ -57,7 +57,7 @@ public class B extends Canvas {
 			}
 		}
 	}
-
+// This is an important method. 
 	private float fromValue(double value) {
 		return (float) (((300 * (1.0 - value) + 300) % 360) / 360.0);
 	}
